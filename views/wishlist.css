@@ -1,0 +1,255 @@
+
+
+
+
+
+
+
+
+#body{
+    height: auto;
+    margin: auto;
+    overflow-x: hidden;
+    margin-top: 0px;
+}
+.up{
+    align-items: center;
+    padding-left: 400px;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(43, 43, 161),rgb(199, 65, 65));
+    display: flex;
+    color: rgb(207, 197, 197);
+ 
+}.straw{
+    padding-left: 23px;
+    
+}
+
+.up ul{
+    padding-top: 20px;
+  
+    
+}
+.up i{
+    padding-left: 30px;
+  
+}
+.up :hover{
+ color: white;
+}
+ul div{
+    
+    font-family: Lato,sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 20px;
+    color: rgb(163, 156, 156);
+    font-weight: 0;
+   text-transform: uppercase;
+    padding-top: 10px;
+   padding-right: 10px;
+   text-align: center;
+}
+
+ul:hover{
+   border-bottom: 1px solid;
+   width: fit-content;
+   padding-bottom: 10px;
+    color: white;
+  
+}
+
+.list{
+    width: 80%;
+    height: 900px;
+    
+    margin: auto;
+    margin-top: 80px;
+}
+span{
+    font-family: Lato,sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(98,51,129);
+    font-weight: 0;
+    
+}
+span:hover{
+      padding-bottom: 5px;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+   
+    color: rgb(98,51,129);
+}
+hr{
+    background-color: rgb(98,51,129);
+    height: 0.5px;
+}
+span:nth-child(2) {
+    padding-left: 45px;
+
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+.left{
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid;
+    color:rgb(105, 99, 99) ;
+}
+
+.left p:nth-child(1){
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-weight: 800;
+    letter-spacing: 6px;
+    color: rgb(22, 22, 21);
+}
+.left p:nth-child(2){
+    font-size: 20px;
+    color: rgb(22, 22, 21);
+ 
+}
+.left p:nth-child(3){
+    font-size: 20px;
+    color: rgb(22, 22, 21);
+    font-weight: 600;
+     font-family: 'Lato', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', sans-serif;
+  
+ 
+}
+.left p:nth-child(3):hover{
+  text-decoration: underline;
+}
+
+.left p:nth-child(4){
+    font-size: 20px;
+    color: rgb(22, 22, 21);
+    font-weight: 600;
+     font-family: 'Lato', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', sans-serif;
+  
+ 
+}
+.left p:nth-child(4):hover{
+  text-decoration: underline;
+}
+.left p:nth-child(5){
+    font-size: 20px;
+    color: rgb(22, 22, 21);
+    font-weight: 600;
+     font-family: 'Lato', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', sans-serif;
+  
+ 
+}
+.left p:nth-child(5):hover{
+  text-decoration: underline;
+}
+.left p:nth-child(6){
+    font-size: 20px;
+    color: rgb(22, 22, 21);
+    font-weight: 600;
+     font-family: 'Lato', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', sans-serif;
+  
+ 
+}
+.left p:nth-child(6):hover{
+  text-decoration: underline;
+}
+
+#right{
+    
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#right>div{
+
+border-radius: 5px;
+margin: auto;
+padding-left: 10px;
+margin-top: 20px;
+}
+#right>div:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+cursor: pointer;
+}
+.nam{
+  padding-top: 20px;
+  font-weight: 550;
+font-family: Arial, Helvetica, sans-serif;
+color: #0e0e0e;
+}
+.des{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 0;
+  padding-top: 10px;
+}
+.price{
+  font-weight: bolder;
+  font-size: 25px;
+  padding-top: 20px;
+}
+#btn{
+ padding: 10px 30px;
+ margin-top: 20px;
+ margin-left: 60px;
+ background-color:rgb(0,166,156) ;
+ border: none;
+ font-weight: 600;
+ font-size: 15px;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#btn:hover{
+   background-color:rgb(130, 196, 191) ;
+}
+
+#icon{
+font-size: 30px;
+margin-left: 85%;
+margin-top: 15px;
+cursor: pointer;
+color: darkgray;
+
+}
+#icon:active{
+  transform: scale(0.96);
+}
+.img{
+   width: 200px;
+   height: 150px;
+    margin: auto;
+    margin-top: 150px;
+    display: inline;
+}
+.span{
+    font-size: 20px;
+   text-transform: initial;
+   border-bottom: none;
+}
+
+
+
+
+

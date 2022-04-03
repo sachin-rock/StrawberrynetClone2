@@ -1,0 +1,77 @@
+#userDetails{
+    text-align: center;
+    background-color: white;
+}
+
+#ship{
+    background-color: white;
+    padding-top: 1%;
+}
+.inputCheckOut{
+    width: 90%;
+    margin-bottom: 10px;
+    border: blue 1px solid;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.inputACheckOut{
+    width: 90%;
+    border: blue 1px solid;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#prefix{
+    width: 10%;
+    /* margin-right: 5%; */
+    border: blue 1px solid;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#mobile{
+    width: 90%;
+    /* margin-left: 8%; */
+    border: blue 1px solid;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#save{
+    width: 300px;
+    text-align: center;
+    height: 45px;
+    font-size: larger;
+    padding: 5px;
+    background-color: rgb(98,51,129);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+#country{
+    width: 91.6%;
+    padding: 5px;
+}
+
+#address2{
+    border-top: none;
+}
+
+#address3{
+    border-top: none;
+}
+.inputA{
+    font-size: 18px;
+}
+

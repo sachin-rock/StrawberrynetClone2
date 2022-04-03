@@ -1,0 +1,261 @@
+body{
+    
+    background-color: #F5F5F5;
+}
+
+#checkoutContainer{
+    width: 90%;
+    margin: auto;
+}
+
+#containerCheckout{
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+
+#checkoutLeft{
+    width: 65%;
+    
+    margin-right: 3%;
+    /* padding-left: 5%; */
+}
+
+#checkoutRight{
+    width: 30%;
+    
+    
+    text-align: center;
+}
+
+#notification{
+    padding-left: 5%;
+    height: 200px;
+    
+    overflow: scroll;
+    background-color: white;
+    margin-top: 2%;
+    
+}
+
+#notification ul{
+    padding-top: 0px;
+
+}
+
+#EnterPromo{
+    background-color: white;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
+}
+
+#promocode{
+    width: 100%;
+    border: blue 2px solid;
+    height: 30px;
+}
+
+#applyPromo{
+    border: none;
+    background-color: rgb(98,51,129);
+    width: 60%;
+    height: 40px;
+    font-size: larger;
+    margin-top: 5%;
+    font-weight: 800;
+    color: white;
+}
+
+#cartTotal > div{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#cartTotal {
+    padding: 5%;
+}
+
+#redtext{
+    color: red;
+}
+
+#card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+#cardImage >img{
+    width: 50%;
+    
+}
+
+#card > div{
+    text-align: center;
+}
+
+#product{
+    background-color: white;
+}
+
+#cartValue{
+    background-color: white;
+    background-color: white;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    /* padding-bottom: 5%; */
+    margin-top: 5%;
+}
+
+#cartValue > div >p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cartValue > div > h4{
+    margin: 0px;
+    padding: 0px;
+}
+#cartT{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5% 0% 5%;
+}
+
+#userDe{
+    padding: 5%;
+    background-color: white;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+#EnterDetail{
+    padding-left: 5%;
+}
+
+#editImage{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#shipAddress{
+    display: flex;
+    justify-content: space-between;
+}
+
+#payment > div{
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.paymentCard{
+    display: flex;
+}
+
+.paymentClick{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cardCheck{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.paymentCard > div >p{
+margin-top: 0px;
+padding-top: 0px;
+padding-left: 10px;
+}
+
+#payment{
+    /* padding-top: 5%; */
+    margin-top: 2%;
+    padding-top: 5%;
+    background-color: white;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.paymentCard > div{
+    margin-top: 2%;
+}
+
+#payNow{
+    width: 60%;
+    height: 40px;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 3%;
+    background-color: rgb(98,51,129);
+    color: white;
+    font-weight: bolder;
+
+}
+
+#cardNumber{
+    width: 90%;
+    height: 30px;
+}
+
+#cardPayment{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.expiry{
+    width: 90%;
+    padding:0% 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 5%;
+
+}
+
+#expiry_cvv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#expiry_cvv > input{
+    width: 300px;
+    height: 30px;
+}
+
+#expiry{
+    width: 100px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#checkoutContainer{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* #checkoutRight{
+     position: ; 
+} */
+
+#payment{
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="./Footer.css">
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://kit.fontawesome.com/d912d9793f.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Shizuru&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="sticky">
+        <header>
+            <div class="header__left">
+               <a href="./Home.html"> <img src="./image/Screenshot 2022-02-22 112708.png" alt="" srcset=""></a>
+            </div>
+            <div class="header__mid">
+                <div class="inputbox">
+                    <input type="text" placeholder="Search" id="search_results" />
+                    <button>
+                        <i class="material-icons">search</i>
+                    </button>
+
+                </div>
+                <div class="product_text">
+                    <a href="#">Natural Beauty</a>
+                    <a href="#">Estee Lauder</a>
+                    <a href="#">Shiseido</a>
+                    <a href="#">Double Serum</a>
+                </div>
+
+            </div>
+            <div class="header__right">
+                <div class="row1">
+                    <div>Rs.INR India:English<i class="material-icons" style="font-size: 19px;">expand_more</i></div>
+                    <div></div>
+                    <div>Order Tracking</div>
+                </div>
+                <div class="row2">
+                    <div id="profileIconShow"><a href=""><i class="material-icons">account_circle</i>Signin</a></div>
+                <div id="profileNameShow"></div>
+                    <div><a href="./wishlist.html"><i class="material-icons"> favorite</i>Whishlist</a></div>
+                    <div class="position-relative">
+
+                        <a href=""><i class="material-icons ">shopping_bag</i>Bag</a>
+                        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success cartCount" style="padding-left: 9px;">
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- -----------------------------------------header end-------------------------------------------------- -->
+
+
+        <!-- -----------------------------------------category nav start-------------------------------------------------- -->
+
+        <div class="category__container">
+            <div class="dropdown">
+                <div class="dropbtn"><i class="material-icons">menu</i>SHOP BY BRAND</div>
+                <div class="dropdown-content">
+                    <input type="text" placeholder="Search brand" id="myInput" onkeyup="filterFunction()"
+                        autocomplete="off">
+                    <a href="">Biotherm</a>
+                    <a href="">Bvlgari</a>
+                    <a href="">Calvin Klein</a>
+                    <a href="">Clarins</a>
+                    <a href="">Clinique</a>
+                    <a href="">Dermalogica</a>
+                    <a href="#">Elizabeth Arden</a>
+                    <a href="#">Estee Lauder</a>
+                    <a href="#">Kiehl's</a>
+                    <a href="#">La Prairie</a>
+                </div>
+            </div>
+
+            <div><a href="">SKINCARE</a> </div>
+            <div><a href="">PERFUME</a> </div>
+            <div><a href="">HOMESCENTS</a> </div>
+            <div><a href="">MAKEUP</a> </div>
+            <div><a href="">SKINCARE</a> </div>
+            <div><a href="">HAIRCARE</a> </div>
+            <div><a href="">NATURAL BEAUTY</a> </div>
+            <div><a href=""><i class="material-icons">redeem</i>SPECIAL</a> </div>
+            <div><a href=""><i class="material-icons">star</i>NEW</a> </div>
+        </div>
+    </div>
+
+
+    
+   
+
+
+
+
+
+
+    <div id="body">
+        <div class="up">
+            <ul>
+             <i class="fa-solid fa-user fa-3x"></i>
+            <div>Account</div>
+            </ul>
+            <ul>
+             <i class="fa-solid fa-clipboard-list fa-3x"></i>
+            <div>Wishlist</div>
+            </ul>
+            <ul>
+          <img class="straw" src="https://a.cdnsbn.com/images/common/bounspoint_header.png",
+          alt="strawberry",
+          width="50px",
+          height="50px">
+          
+            <div>Strawberry</div>
+            </ul>
+            <ul>
+          <i class="fa-solid fa-dolly fa-3x"></i>
+            <div>Orders</div>
+            </ul>
+            <ul>
+           <i class="fa-solid fa-star fa-3x"></i>
+            <div>Review</div>
+            </ul>
+            <ul>
+             <i class="fa-solid fa-gear fa-3x"></i>
+            <div>Setting</div>
+            </ul>
+           
+        </div>
+
+        <div class="list">
+            <div class="mar";>
+                <span>wishlist</span>
+                <span>your brand</span>
+            </div>
+            <hr>
+            <div class="main" >
+                <div class="left">
+                    <p>wishlist</p>
+                    <p>show all</p>
+                    <p>skin care (1)</p>
+                    <p>hair care (1)</p>
+                    <p>men's cologne (1)</p>
+                    <p>refine by brand</p>
+                </div>
+                <div id="right">
+                    
+                </div>
+            </div>
+             <div id="kkk"></div>
+
+
+        </div>
+
+    </div>
+
+    <div id="Main">
+        <div id="Box1">
+            <div class="firstDiv">
+                <h2 class="stay">STAY CONNECTED</h2>
+                <input class="input" type="text" placeholder="Enter your email for exclusive offers">
+                <button class="btnBox1">SIGN UP</button>
+
+                <div style="margin-top: 20px;" class="secondDiv">
+                    <a href="https://www.youtube.com/user/TheStrawberryNET"><i class="fa fa-youtube-play"
+                            style="font-size:30px; color: white;"></i></a>
+                    <a style="font-size:30px; color: white;"
+                        href="https://www.facebook.com/pages/StrawberryNET/56607929065" class="fa fa-facebook"></a>
+                    <a style="font-size:30px; color: white;" href="https://twitter.com/strawberrynet"
+                        class="fa fa-twitter"></a>
+                    <a style="font-size:30px; color: white;" href="https://www.pinterest.com/strawberrynet/"><i
+                            class="fa fa-pinterest"></i></a>
+                    <!-- <a style="font-size:30px; color: black;" href="https://www.instagram.com/strawberrynetofficial/"></a> -->
+                    <a style="font-size:30px; color: white;" href="https://www.instagram.com/strawberrynetofficial/"
+                        class="fa fa-instagram"></a>
+
+                </div>
+            </div>
+
+            <div>
+                <img src="./image/2022-02-24 (24).png" alt="image" width=100%>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="Box2">
+            <div class="First">
+                <div class="newdiv">
+                    <a href="https://www.strawberrynet.com/en-in/customer-service/delivery/">
+                        SHIPPING & TAX
+                    </a>
+                    <div class="Div"></div>
+                    <a href="https://www.strawberrynet.com/en-in/customer-service/returns-cancellations/">
+                        RETURNS POLICY
+                    </a>
+                    <div class="Div"></div>
+                    <a href="https://www.strawberrynet.com/en-in/customer-service/faq/">
+                        FAQ
+                    </a>
+                    <div class="Div"></div>
+                    <a href="https://www.strawberrynet.com/en-in/customer-service/contact-details/">
+                        CONTACT US
+                    </a>
+                </div>
+
+                <div class="count">
+                    <h4 class="change">CHANGE COUNTRY/CURRENCY</h4>
+                    <img src="./image/2022-02-24 (25) 4.png">
+                    <!-- <span class="change-currency-icon"></span> -->
+
+                </div>
+            </div>
+
+            <hr class="hr">
+            <!-- <div style="width: 80%; height: 1px; background-color: white;"></div> -->
+
+            <div class="other">
+                <div class="one">
+                    <img src="image/2022-02-24 (25) 1.png" alt="" width="100%">
+                </div>
+
+                <div>
+                    <div class="two">
+                        <div style="width: 100%;">
+                            <h2 class="h2">MY ACCOUNT</h2>
+                            <br>
+                            <a class="atag" href="https://www.strawberrynet.com/en-in/tracking/">Track Order</a>
+                            <br>
+                            <!-- <br> -->
+                            <a class="atag" href="https://www.strawberrynet.com/en-in/main.aspx">Order History</a>
+                            <br>
+                            <!-- <br> -->
+                            <a class="atag"
+                                href="https://secure.strawberrynet.com/accountsignup.aspx?page=productReview.aspx?region=INEN">My
+                                Reviews</a>
+                            <br>
+                            <!-- <br> -->
+                            <a class="atag"
+                                href="https://www.strawberrynet.com/en-in/Promo_Birthday_Incentive.aspx">Birthday Treat
+                                Program</a>
+                        </div>
+
+                        <div class="node">
+                            <h2 class="h2">OUR COMAPNY</h2>
+                            <br>
+                            <a class="newatag"
+                                href="https://www.strawberrynet.com/en-in/customer-service/about-us/">About Us</a>
+                            <!-- <br> -->
+                            <br>
+                            <a class="newatag2"
+                                href="https://www.strawberrynet.com/en-in/customer-service/rewards/">Point Rewards
+                                Program</a>
+                            <br>
+                            <!-- <br> -->
+                            <a class="atag"
+                                href="https://www.strawberrynet.com/en-in/customer-service/contact-details/">Contact
+                                Us</a>
+                            <br>
+                            <a class="atag"
+                                href="https://www.strawberrynet.com/en-in/affiliates-program/">Affiliates</a>
+                            <br>
+                            <a class="atag" href="https://www.strawberrynet.com/en-in/partner.aspx">Partners</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style=" cursor: ponter;" class="newimgdiv">
+                    <a href="https://apps.apple.com/hk/app/strawberrynet-com/id436735308"><img
+                            src="image/2022-02-24 (25) 2.png" alt="" width="100%"></a>
+                </div>
+            </div>
+
+            <div class="gap">
+                <a
+                    href="https://www.trustpilot.com/review/www.strawberrynet.com?utm_medium=trustbox&utm_source=Carousel"><img
+                        src="./image/2022-02-24 (25) 3.png" alt="" width="100%"></a>
+            </div>
+
+            <div>
+                <div class="last"></div>
+
+                <div class="last2">
+                    <a href="https://www.strawberrynet.com/en-in/customer-service/rewards-terms-conditions/">
+                        <p class="end">Privacy & Security | Terms & Conditions | Point Rewards Program Terms &
+                            Conditions</p>
+                    </a>
+
+                    <p style="color: white;"> 1998 - 2022 © StrawberryNET.com All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+</body>
+<script  src="./wishlist.js"></script>
+<script src="./Home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="./signinName.js"></script>
+</html>
